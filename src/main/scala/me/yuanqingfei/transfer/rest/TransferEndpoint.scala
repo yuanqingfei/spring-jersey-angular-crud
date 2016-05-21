@@ -3,7 +3,7 @@ package me.yuanqingfei.transfer.rest
 import javax.ws.rs._
 import javax.ws.rs.core.{MediaType, Response}
 
-import me.yuanqingfei.transfer.pojo.Transfer
+import me.yuanqingfei.transfer.pojo.{Transfer, TransferList}
 import me.yuanqingfei.transfer.service.TransferService
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.stereotype.Component
@@ -20,8 +20,19 @@ class TransferEndpoint @Autowired() (transferService: TransferService) {
   @GET
   @Path("/transfers")
   @Produces(Array(MediaType.APPLICATION_JSON))
-  def getAll: java.util.List[Transfer] = {
-      transferService.getAll()
+  def getAll: TransferList = {
+      val transferList = new TransferList()
+      val orginalList = transferService.getAll()
+      transferList.setTotal(orginalList.size())
+      transferList.setResults(orginalList)
+      transferList
+  }
+
+  @GET
+  @Path("/transfers2")
+  @Produces(Array(MediaType.APPLICATION_JSON))
+  def getAll2: java.util.List[Transfer] = {
+    transferService.getAll()
   }
 
   @GET
@@ -35,6 +46,14 @@ class TransferEndpoint @Autowired() (transferService: TransferService) {
   @Path("/transfers")
   @Consumes(Array(MediaType.APPLICATION_JSON))
   def insert(transfer: Transfer): Response = {
+    transferService.insertTransfer(transfer)
+    Response.ok("insert successfully!").build();
+  }
+
+  @POST
+  @Path("/transfers/{id}")
+  @Consumes(Array(MediaType.APPLICATION_JSON))
+  def insert2(@PathParam("id") id: String, transfer: Transfer): Response = {
     transferService.insertTransfer(transfer)
     Response.ok("insert successfully!").build();
   }
@@ -55,3 +74,5 @@ class TransferEndpoint @Autowired() (transferService: TransferService) {
   }
 
 }
+
+
