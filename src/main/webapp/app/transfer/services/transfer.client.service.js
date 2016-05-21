@@ -19,7 +19,7 @@
             }
         };
 
-        var API_URL = API_BASE_URL + '/transfer/:transferId';
+        var API_URL = API_BASE_URL + '/transfers/:transferId';
 
         return $resource(API_URL, params, actions);
 

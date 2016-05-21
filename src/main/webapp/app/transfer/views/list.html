@@ -14,8 +14,10 @@
 
       <table ng-table="vm.tableParams" show-filter="true" class="table table-condensed table-striped">
           <tr ng-repeat="transfer in $data">
-              <td data-title="'Name'" sortable="'name'" filter="{ 'name': 'text' }">{{transfer.name}}</td>
-              <td data-title="'Address'" sortable="'address'" filter="{'address': 'text'}">{{transfer.address}}</td>
+              <td data-title="'Id'" sortable="'id'" filter="{ 'id': 'text' }">{{transfer.id}}</td>
+              <td data-title="'Doctor Name'" sortable="'doctor'" filter="{'doctor': 'text'}">{{transfer.doctor}}</td>
+              <td data-title="'Sender Name'" sortable="'sender'" filter="{'sender': 'text'}">{{transfer.sender}}</td>
+              <td data-title="'Receiver Name'" sortable="'receiver'" filter="{'receiver': 'text'}">{{transfer.receiver}}</td>
               <td>
                  <div class="table-actions">
                       <a class="btn btn-default" title="View" href="/transfer/{{transfer.id}}">

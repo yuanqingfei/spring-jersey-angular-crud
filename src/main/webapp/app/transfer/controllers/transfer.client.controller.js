@@ -85,7 +85,7 @@
         activate();
 
         function activate() {
-            //logger.info('Activated Transfer View');
+            logger.info('Activated Transfer View');
         }
     }
 

@@ -11,19 +11,35 @@
 
             var fields = [
                 {
-                    key: 'name',
+                    key: 'id',
                     type: 'input',
                     templateOptions: {
-                        label: 'Name:',
+                        label: 'Id:',
                         disabled: disabled,
                         required: true
                     }
                 },
                 {
-                    key: 'address',
+                    key: 'doctor',
                     type: 'input',
                     templateOptions: {
-                        label: 'Address:',
+                        label: 'Doctor Name:',
+                        disabled: disabled
+                    }
+                },
+                {
+                    key: 'sender',
+                    type: 'input',
+                    templateOptions: {
+                        label: 'Sender Name:',
+                        disabled: disabled
+                    }
+                },
+                {
+                    key: 'receiver',
+                    type: 'input',
+                    templateOptions: {
+                        label: 'Receiver Name:',
                         disabled: disabled
                     }
                 }

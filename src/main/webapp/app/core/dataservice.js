@@ -9,7 +9,8 @@
     /* @ngInject */
     function dataservice($http, $q, logger) {
         var service = {
-            getPeople: getPeople,
+//            getPeople: getPeople,
+            getTransfer: getTransfer,
             getMessageCount: getMessageCount
         };
 
@@ -17,8 +18,8 @@
 
         function getMessageCount() { return $q.when(72); }
 
-        function getPeople() {
-            return $http.get('/api/people')
+        function getTransfer() {
+            return $http.get('/api/transfers')
                 .then(success)
                 .catch(fail);
 

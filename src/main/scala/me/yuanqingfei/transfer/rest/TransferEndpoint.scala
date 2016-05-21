@@ -14,25 +14,25 @@ import scala.collection.JavaConversions._
   * Created by aaron on 16-5-21.
   */
 @Component
-@Path("/transfers")
+@Path("/api")
 class TransferEndpoint @Autowired() (transferService: TransferService) {
 
   @GET
-  @Path("/")
+  @Path("/transfers")
   @Produces(Array(MediaType.APPLICATION_JSON))
   def getAll: java.util.List[Transfer] = {
       transferService.getAll()
   }
 
   @GET
-  @Path("/{id}")
+  @Path("/transfers/{id}")
   @Produces(Array(MediaType.APPLICATION_JSON))
   def get(@PathParam("id") id: String): Transfer = {
     transferService.getTransfer(id)
   }
 
   @POST
-  @Path("/")
+  @Path("/transfers")
   @Consumes(Array(MediaType.APPLICATION_JSON))
   def insert(transfer: Transfer): Response = {
     transferService.insertTransfer(transfer)
@@ -40,7 +40,7 @@ class TransferEndpoint @Autowired() (transferService: TransferService) {
   }
 
   @PUT
-  @Path("/{id}")
+  @Path("/transfers/{id}")
   @Consumes(Array(MediaType.APPLICATION_JSON))
   def update(@PathParam("id") id: String, transfer: Transfer): Response = {
     transferService.updateTransfer(id, transfer)
@@ -48,7 +48,7 @@ class TransferEndpoint @Autowired() (transferService: TransferService) {
   }
 
   @DELETE
-  @Path("/{id}")
+  @Path("/transfers/{id}")
   def delete(@PathParam("id") id: String): Response = {
     transferService.deleteTransfer(id)
     Response.ok("delete successfully!").build();

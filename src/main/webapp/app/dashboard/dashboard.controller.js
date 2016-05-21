@@ -15,13 +15,13 @@
                           'and CRUD operations very productively for AngularJS applications'
         };
         vm.messageCount = 0;
-        vm.people = [];
+        vm.transfer = [];
         vm.title = 'Dashboard';
 
         activate();
 
         function activate() {
-            var promises = [getMessageCount(), getPeople()];
+            var promises = [getMessageCount(), getTransfer()];
             return $q.all(promises).then(function() {
                 //logger.info('Activated Dashboard View');
             });
@@ -34,10 +34,10 @@
             });
         }
 
-        function getPeople() {
-            return dataservice.getPeople().then(function (data) {
-                vm.people = data;
-                return vm.people;
+        function getTransfer() {
+            return dataservice.getTransfer().then(function (data) {
+                vm.transfer = data;
+                return vm.transfer;
             });
         }
     }
