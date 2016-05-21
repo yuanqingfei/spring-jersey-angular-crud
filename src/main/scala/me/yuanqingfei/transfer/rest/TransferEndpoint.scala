@@ -45,25 +45,24 @@ class TransferEndpoint @Autowired() (transferService: TransferService) {
   @POST
   @Path("/transfers")
   @Consumes(Array(MediaType.APPLICATION_JSON))
-  def insert(transfer: Transfer): Response = {
+  @Produces(Array(MediaType.APPLICATION_JSON))
+  def insert(transfer: Transfer): Transfer = {
     transferService.insertTransfer(transfer)
-    Response.ok("insert successfully!").build();
   }
 
   @POST
   @Path("/transfers/{id}")
   @Consumes(Array(MediaType.APPLICATION_JSON))
-  def insert2(@PathParam("id") id: String, transfer: Transfer): Response = {
+  @Produces(Array(MediaType.APPLICATION_JSON))
+  def insert2(@PathParam("id") id: String, transfer: Transfer): Transfer = {
     transferService.insertTransfer(transfer)
-    Response.ok("insert successfully!").build();
   }
 
   @PUT
   @Path("/transfers/{id}")
   @Consumes(Array(MediaType.APPLICATION_JSON))
-  def update(@PathParam("id") id: String, transfer: Transfer): Response = {
+  def update(@PathParam("id") id: String, transfer: Transfer): Transfer = {
     transferService.updateTransfer(id, transfer)
-    Response.ok("update successfully!").build();
   }
 
   @DELETE

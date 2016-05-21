@@ -16,10 +16,11 @@ trait TransferMapper{
   def getAll(): java.util.List[Transfer]
 
   @Insert(Array("insert into transfer(doctor, sender, receiver) values(#{doctor}, #{sender}, #{receiver})"))
+  @Options(useGeneratedKeys=true, keyProperty="id")
   def insertTransfer(transfer: Transfer)
 
   @Update(Array("update transfer set doctor=#{transfer.doctor}, sender=#{transfer.sender}, receiver=#{transfer.receiver} where id=#{id}"))
-  def updateTransfer(@Param("id") id: Int, @Param("transfer")transfer: Transfer)
+  def updateTransfer(@Param("id") id: Int, @Param("transfer")transfer: Transfer): Int
 
   @Delete(Array("delete from transfer where id=#{id}"))
   def deleteTransfer(@Param("id") id: Int)

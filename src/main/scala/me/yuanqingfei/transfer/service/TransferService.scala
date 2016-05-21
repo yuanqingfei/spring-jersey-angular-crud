@@ -21,15 +21,17 @@ class TransferService @Autowired()(transferMapper: TransferMapper) {
     transferMapper.getTransfer(id.toInt)
   }
 
-  def updateTransfer(id: String, transfer: Transfer) = {
+  def updateTransfer(id: String, transfer: Transfer): Transfer = {
     transferMapper.updateTransfer(id.toInt, transfer)
+    transfer
   }
 
   def deleteTransfer(id: String) = {
     transferMapper.deleteTransfer(id.toInt)
   }
 
-  def insertTransfer(transfer: Transfer) = {
+  def insertTransfer(transfer: Transfer): Transfer = {
     transferMapper.insertTransfer(transfer)
+    transfer
   }
 }
