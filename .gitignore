@@ -1,5 +1,5 @@
 .idea/*
-src/main/webapp/bower_components/*
+src/main/resources/bower_components/*
 
 *.class
 *.log
