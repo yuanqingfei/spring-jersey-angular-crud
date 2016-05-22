@@ -14,7 +14,7 @@ import scala.collection.JavaConversions._
   * Created by aaron on 16-5-21.
   */
 @Component
-@Path("/api")
+@Path("/")
 class TransferEndpoint @Autowired() (transferService: TransferService) {
 
   @GET

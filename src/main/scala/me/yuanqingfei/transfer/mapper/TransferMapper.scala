@@ -2,6 +2,7 @@ package me.yuanqingfei.transfer.mapper
 
 import me.yuanqingfei.transfer.pojo.Transfer
 import org.apache.ibatis.annotations._
+import org.springframework.stereotype.Component
 
 /**
   * Created by aaron on 16-5-21.
