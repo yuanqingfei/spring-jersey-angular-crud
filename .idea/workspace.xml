@@ -2,72 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f2553d1-1f84-4cf7-a35f-e2efda5be84e" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/public/app/app.module.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/public/app/blocks/exception/exception-handler.provider.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/public/app/blocks/exception/exception-handler.provider.spec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/public/app/blocks/exception/exception.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/public/app/blocks/exception/exception.module.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/public/app/blocks/logger/logger.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/public/app/blocks/logger/logger.module.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/public/app/blocks/router/router-helper.provider.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/public/app/blocks/router/router.module.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/public/app/core/404.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/public/app/core/config.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/public/app/core/constants.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/public/app/core/core.module.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/public/app/core/core.route.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/public/app/core/core.route.spec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/public/app/core/dataservice.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/public/app/core/directives/ng-really-click.directive.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/public/app/core/services/table.settings.service.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/public/app/dashboard/dashboard.controller.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/public/app/dashboard/dashboard.controller.spec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/public/app/dashboard/dashboard.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/public/app/dashboard/dashboard.module.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/public/app/dashboard/dashboard.route.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/public/app/dashboard/dashboard.route.spec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/public/app/layout/ht-sidebar.directive.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/public/app/layout/ht-sidebar.directive.spec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/public/app/layout/ht-top-nav.directive.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/public/app/layout/ht-top-nav.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/public/app/layout/layout.module.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/public/app/layout/shell.controller.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/public/app/layout/shell.controller.spec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/public/app/layout/shell.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/public/app/layout/sidebar.controller.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/public/app/layout/sidebar.controller.spec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/public/app/layout/sidebar.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/public/app/transfer/config/transfer.client.routes.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/public/app/transfer/controllers/transfer.client.controller.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/public/app/transfer/services/transfer.client.service.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/public/app/transfer/services/transfer.form.client.service.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/public/app/transfer/transfer.client.module.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/public/app/transfer/views/create.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/public/app/transfer/views/edit.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/public/app/transfer/views/list.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/public/app/transfer/views/view.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/public/app/widgets/ht-img-person.directive.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/public/app/widgets/ht-widget-header.directive.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/public/app/widgets/widget-header.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/public/app/widgets/widgets.module.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/public/bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/public/images/AngularJS-small.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/public/images/busy.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/public/images/gulp-tiny.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/public/images/icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/public/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/public/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/public/specs.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/public/styles/styles.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/public/styles/styles.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/public/test-helpers/bind-polyfill.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/public/test-helpers/mock-data.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sbt.xml" afterPath="$PROJECT_DIR$/.idea/sbt.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.sbt" afterPath="$PROJECT_DIR$/build.sbt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/plugins.sbt" afterPath="$PROJECT_DIR$/project/plugins.sbt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/jdbc.properties" afterPath="$PROJECT_DIR$/src/main/resources/jdbc.properties" />
     </list>
     <ignored path="spring-jersey-angular-crud.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -113,11 +50,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="constants.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="constants.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/app/core/constants.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
               <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jdbc.properties" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -137,14 +84,15 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/build.sbt" />
+        <option value="$PROJECT_DIR$/src/main/resources/jdbc.properties" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="811" />
-    <option name="y" value="52" />
-    <option name="width" value="1725" />
-    <option name="height" value="998" />
+    <option name="x" value="65" />
+    <option name="y" value="24" />
+    <option name="width" value="1855" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -242,14 +190,6 @@
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -269,33 +209,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-jersey-angular-crud" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-jersey-angular-crud" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
+              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -462,7 +376,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="811" y="52" width="1725" height="998" extended-state="0" />
+    <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -477,7 +391,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2684058" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24959569" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -536,6 +450,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
           <folding />
         </state>
       </provider>
